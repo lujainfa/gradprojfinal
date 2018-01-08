@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/status"
+        style="@style/ThemeOverlay.MyTextDetail"
+        android:layout_width="0dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/signed_out"
+
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="233dp"
+        android:layout_height="177dp"
+        android:layout_marginTop="36dp"
+        android:contentDescription=""
+        android:visibility="visible"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/status"
+        app:srcCompat="@drawable/inlogo"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <Button
+        android:id="@+id/bloodSign"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/sign_in_as_a_blood_bank"
+        android:theme="@style/ThemeOverlay.MyDarkButton"
+        android:textStyle="bold"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sign_in_button"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:id="@+id/Guest"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="4dp"
+        android:onClick="gclick"
+        android:text="@string/continue_as_a_guest"
+        android:textStyle="bold"
+
+        android:theme="@style/ThemeOverlay.MyDarkButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bloodSign"
+        tools:ignore="NotSibling"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:id="@+id/inbtn"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="4dp"
+
+
+        android:onClick="onClick"
+        android:text="invite friends"
+        android:textStyle="bold"
+        android:theme="@style/ThemeOverlay.MyDarkButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Guest"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="NotSibling"
+        tools:layout_constraintTop_creator="1" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+
+        android:layout_marginTop="52dp"
+        android:theme="@style/ThemeOverlay.MyDarkButton"
+        android:visibility="visible"
+        app:colorScheme="light"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:layout_constraintBottom_creator="1">
+        <FrameLayout
+            android:id="@+id/snackbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="16dp"
+            android:layout_alignParentLeft="true" />
+
+    </com.google.android.gms.common.SignInButton>
+
+
+</android.support.constraint.ConstraintLayout>

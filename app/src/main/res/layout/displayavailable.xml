@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1"
+    app:layout_collapseParallaxMultiplier="1.0">
+
+
+    <TextView
+        android:id="@+id/bName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Available"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Available Blood Types:"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/Available"
+        android:layout_width="176dp"
+        android:layout_height="29dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/O11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O-"
+            android:textAlignment="center"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/O22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.72"
+            android:text="O+"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/A22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.40"
+            android:text="@string/a"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/A11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.90"
+            android:text="A-"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/B22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B+"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/B11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.22"
+            android:text="B-"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/AB22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="AB+"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/AB11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="AB-"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/NeededDonations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Needed Donations:"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/platelets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Platelets"
+            android:textAlignment="center"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="-48dp" />
+
+        <TextView
+            android:id="@+id/whole"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Whole Blood"
+            android:textAlignment="center"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/redcells"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/red_cells"
+            android:textAlignment="center"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="25dp">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolb"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:theme="@style/MyCustomTheme"></android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="195dp"
+        android:layout_height="29dp"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="72dp"
+        android:text="@string/before_your_donation"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="317dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/_1_maintain_a_healthy_iron_level_in_your_diet_by_eating_iron_rich_foods_such_as_red_meat_fish_poultry_beans_spinach_iron_fortified_cereals_and_raisins"
+        android:textColor="@color/cast_expanded_controller_background_color"
+
+        app:layout_constraintLeft_toLeftOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/_2_get_a_good_night_s_sleep"
+        android:textColor="@color/cast_expanded_controller_background_color"
+
+        android:textStyle="normal"
+        app:layout_constraintLeft_toLeftOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="316dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/_3_if_you_are_a_platelet_donor_remember_that_your_system_must_be_free_of_aspirin_for_two_days_prior_to_donation"
+        android:textColor="@color/cast_expanded_controller_background_color"
+
+        app:layout_constraintLeft_toLeftOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/after_your_donation"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="312dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/_1_keep_the_strip_bandage_on_for_the_next_several_hours"
+        android:textColor="@color/cast_expanded_controller_background_color"
+
+        android:textStyle="normal"
+        app:layout_constraintLeft_toLeftOf="@+id/textView16"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="319dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="8dp"
+        android:text="2-Avoid performing any activity where fainting may lead to injury for at least 24 hours."
+        android:textColor="@color/cast_expanded_controller_background_color"
+
+        android:textStyle="normal"
+        app:layout_constraintLeft_toLeftOf="@+id/textView17"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="313dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/_3_to_avoid_a_skin_rash_clean_the_area_around_the_strip_bandage_with_soap_and_water"
+        android:textColor="@color/cast_expanded_controller_background_color"
+
+        app:layout_constraintLeft_toLeftOf="@+id/textView18"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="sclick"
+        android:text="Donate"
+        android:textStyle="bold"
+
+        android:theme="@style/ThemeOverlay.MyDarkButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        app:layout_constraintVertical_bias="0.53999996" />
+</android.support.constraint.ConstraintLayout>

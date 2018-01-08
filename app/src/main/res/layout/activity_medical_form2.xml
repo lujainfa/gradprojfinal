@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lujainalfalaileh.bloodbank.MedicalForm2"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="25dp">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolb"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:theme="@style/MyCustomTheme"></android.support.v7.widget.Toolbar>
+
+    <Button
+        android:id="@+id/bSend"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="28dp"
+        android:onClick="onClick"
+        android:text="@string/savee"
+        android:textStyle="bold"
+        android:theme="@style/ThemeOverlay.MyDarkButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/switch2"
+        app:layout_constraintRight_toRightOf="@+id/switch2"
+        tools:ignore="HardcodedText,SmallSp"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <Switch
+        android:id="@+id/switch5"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:text="@string/have_you_had_a_tattoo_or_body_piercing_in_the_last_4_months"
+        app:layout_constraintHorizontal_bias="1.0"
+
+        app:layout_constraintLeft_toLeftOf="@+id/switch3"
+        app:layout_constraintRight_toRightOf="@+id/switch3"
+        app:layout_constraintTop_toBottomOf="@+id/switch3"
+        tools:checked="false"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/switch4"
+        app:layout_constraintRight_toRightOf="@+id/switch4"
+        tools:ignore="HardcodedText,SmallSp"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <Switch
+        android:id="@+id/switch6"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+
+        android:text="@string/for_women_have_you_been_pregnant_in_the_last_12_months"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/switch5"
+        app:layout_constraintRight_toRightOf="@+id/switch5"
+        app:layout_constraintTop_toBottomOf="@+id/switch5"
+        tools:checked="false"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/switch5"
+        app:layout_constraintRight_toRightOf="@+id/switch6"
+        tools:ignore="HardcodedText,SmallSp"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="24dp"
+        android:checked="false"
+
+        android:text="@string/do_youu_have_diabetes"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:checked="false"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="0dp"
+        android:layout_height="57dp"
+        android:text="@string/did_you_donate_or_receive_any_blood_products_in_the_last_3_months"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/switch4"
+        app:layout_constraintRight_toRightOf="@+id/switch4"
+        app:layout_constraintTop_toBottomOf="@+id/switch4"
+        tools:checked="false"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:textSize="10sp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/switch3"
+        app:layout_constraintRight_toRightOf="@+id/switch3"
+        tools:ignore="HardcodedText,SmallSp"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <Switch
+        android:id="@+id/switch4"
+        android:layout_width="0dp"
+        android:layout_height="57dp"
+        android:text="@string/did_you_take_antibiotics_antivirals_or_antifungals_in_the_last_3_months"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/switch1"
+        app:layout_constraintRight_toRightOf="@+id/switch1"
+        app:layout_constraintTop_toBottomOf="@+id/switch1"
+        tools:checked="false"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+
+        android:layout_marginTop="24dp"
+        android:text="Turn the switch on if your answer is yes. Otherwise, turn it off:"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolb"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="0dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/in_the_last_3_months_have_you_had_a_vaccination"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/switch6"
+        app:layout_constraintRight_toRightOf="@+id/switch6"
+        app:layout_constraintTop_toBottomOf="@+id/switch6"
+        app:layout_constraintVertical_bias="0.0"
+        tools:checked="false"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/switch6"
+        app:layout_constraintRight_toRightOf="@+id/switch6"
+        tools:ignore="HardcodedText,SmallSp"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/switch1"
+        app:layout_constraintRight_toRightOf="@+id/switch1"
+        tools:ignore="RtlHardcoded,SmallSp"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+</android.support.constraint.ConstraintLayout>

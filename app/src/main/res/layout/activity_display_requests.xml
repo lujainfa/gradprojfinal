@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout10"
+        android:layout_width="384dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13">
+
+        <TextView
+            android:id="@+id/Name111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textColor="#d71519"
+            android:textSize="18sp"
+
+
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="#000"
+            android:textSize="15sp"
+
+
+            />
+
+        <TextView
+            android:id="@+id/age111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Age:"
+            android:textColor="#d71519"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age:"
+            android:textColor="#000"
+
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/Gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender:"
+            android:textColor="#d71519"
+
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="#000"
+
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/Blood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blood Type:"
+            android:textColor="#d71519"
+
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tBlood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="TextView"
+            android:textColor="#000"
+            android:textSize="15sp" />
+    </LinearLayout></android.support.constraint.ConstraintLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lujainalfalaileh.bloodbank.BloodBankProfile"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="25dp">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolb"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="143dp"
+        app:layout_constraintBottom_toTopOf="@+id/Available"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:theme="@style/MyCustomTheme"></android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/mStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+
+        android:layout_marginBottom="124dp"
+        android:layout_marginEnd="128dp"
+
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:text="TextView"
+        android:textColor="#000"
+        app:layout_constraintBottom_toTopOf="@+id/Available"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.772"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dateAndtime"
+        app:layout_constraintVertical_bias="0.067" />
+
+    <TextView
+        android:id="@+id/dateAndtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:textColor="#000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolb"
+        tools:layout_constraintLeft_creator="1" />
+
+
+    <Button
+        android:id="@+id/bData"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+
+        android:text="@string/modify_blood_bank_s_information"
+        android:textStyle="bold"
+        android:theme="@style/ThemeOverlay.MyDarkButton"
+        app:layout_constraintBottom_toTopOf="@+id/bSignOut"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/bRequests"
+        app:layout_constraintRight_toRightOf="@+id/bRequests"
+        app:layout_constraintTop_toBottomOf="@+id/bRequests"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <Button
+        android:id="@+id/bRequests"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="1dp"
+        android:onClick="onClick"
+        android:text="@string/view_donation_requests"
+        android:textStyle="bold"
+        android:theme="@style/ThemeOverlay.MyDarkButton"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/bData"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Available"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <Button
+        android:id="@+id/Available"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="320dp"
+        android:onClick="onClick"
+        android:text="EDIT BLOOD AND DONATION NEEDS"
+        android:textStyle="bold"
+        android:theme="@style/ThemeOverlay.MyDarkButton"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolb"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <Button
+        android:id="@+id/bSignOut"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="119dp"
+        android:text="@string/sign_outtt"
+        android:textStyle="bold"
+        android:theme="@style/ThemeOverlay.MyDarkButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/bData"
+        app:layout_constraintRight_toRightOf="@+id/bData"
+        app:layout_constraintTop_toBottomOf="@+id/bData"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+</android.support.constraint.ConstraintLayout>

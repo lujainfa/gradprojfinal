@@ -1,0 +1,393 @@
+<resources>
+    <string name="app_name">BloodBank</string>
+    <string name="etUserName">UserName</string>
+    <string name="etPassword">Password</string>
+    <string name="etAge">Age</string>
+    <string name="LogIn">Log In</string>
+    <string name="tvRegister">Register Now</string>
+    <string name="bRegister">Register</string>
+    <string name="name1">Name1</string>
+    <string name="load">loading</string>
+    <string name="googletitletext">google_title_text</string>
+    <string name="already_registered_signin">Already Registered?SignIn</string>
+    <string name="enter_your_e_mail">Enter your E-mail</string>
+    <string name="enter_your_string_etpassword">Enter your @string/etPassword</string>
+    <string name="don_t_have_account_register_here">Don\'t have account? Register here!</string>
+    <string name="sign_inn">Sign In</string>
+    <string name="sign_outt">Sign Out</string>
+    <string name="textview">Test</string>
+    <string name="admin_androidtutorialpoint_com">admin@androidtutorialpoint.com</string>
+    <string name="hello_user">Hello User</string>
+    <string name="signout">SignOut</string>
+
+
+    <string name="label_google_sign_in">Firebase + Google Sign In</string>
+    <string name="desc_google_sign_in">Use a Google Sign In credential to authenticate with Firebase.</string>
+
+    <string name="label_facebook_login">Firebase + Facebook Login</string>
+    <string name="desc_facebook_login">Use a Facebook Login credential to authenticate with Firebase.</string>
+
+    <string name="label_twitter_login">Firebase + Twitter Login</string>
+    <string name="desc_twitter_login">Use a Twitter Login credential to authenticate with Firebase.</string>
+
+    <string name="label_emailpassword">Email/Password Authentication</string>
+    <string name="desc_emailpassword">Use an email and password to authenticate with Firebase.</string>
+
+    <string name="label_phone_auth">Phone Number Authentication</string>
+    <string name="desc_phone_auth">Use a phone number to authenticate with Firebase.</string>
+
+    <string name="label_anonymous_auth">Anonymous Authentication</string>
+    <string name="desc_anonymous_auth">Sign in anonymously and then later upgrade to a full Firebase Auth user.</string>
+
+    <string name="label_custom_auth">Custom Authentication</string>
+    <string name="desc_custom_auth">Use a custom token signed by your own server to authenticate with Firebase.</string>
+
+    <string name="label_firebase_ui">FirebaseUI Auth</string>
+    <string name="desc_firebase_ui">Use the FirebaseUI-Android library to authenticate with Firebase.</string>
+
+    <string name="hint_user_id">User ID</string>
+    <string name="get_custom_token">Get Token</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="loading">Loading…</string>
+    <string name="custom_token">Custom Token</string>
+    <string name="signed_in">Signed In</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="token_null">Token: null</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="start_phone_auth">Start</string>
+    <string name="verify_phone_auth">Verify</string>
+    <string name="resend_phone_auth">Resend</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_verification_code">Verification Code</string>
+    <string name="status_code_sent">Code Sent</string>
+    <string name="status_verification_failed">Verification failed</string>
+    <string name="status_verification_succeeded">Verification succeeded</string>
+    <string name="status_sign_in_failed">Sign-in failed</string>
+    <string name="instant_validation">(instant validation)</string>
+
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="firebase_user_management">Firebase User Management</string>
+
+    <string name="google_status_fmt">Google User: %s</string>
+    <string name="google_title_text">Google Sign In</string>
+
+    <string name="facebook_status_fmt">Facebook User: %s</string>
+    <string name="facebook_title_text">Facebook Login</string>
+
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="emailpassword_title_text">Email and Password</string>
+
+    <string name="phone_title_text">Phone Number</string>
+
+    <string name="twitter_status_fmt">Twitter User: %s</string>
+    <string name="twitter_title_text">Twitter Login</string>
+
+    <string name="firebaseui_status_fmt">Firebase User: %s</string>
+    <string name="firebaseui_title_text">FirebaseUI Auth</string>
+
+    <string name="id_fmt">User ID: %s</string>
+    <string name="email_fmt">Email: %s</string>
+    <string name="nearby_bloodbanks">Nearby BloodBanks</string>
+    <string name="string_nearby_bloodbanks" />
+    <string name="nearby_bloodbankss">Nearby BloodBanks</string>
+    <string name="donate">Donate</string>
+    <string name="near_by_bloodbanks">Near By BloodBanks</string>
+    <string name="appointments">APPOINTMENTS</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="hello_world" />
+    <string name="nearby_blood_banks">Nearby Blood Banks</string>
+    <string name="deactivate">Deactivate</string>
+    <string name="please_fill_this_form">Please fill this form:</string>
+    <string name="enter_your_full_name">Enter your Full Name</string>
+    <string-array name="gender_list">
+        <item>Male </item>
+        <item>Female </item>
+
+    </string-array>
+    <string-array name="blood_list">
+        <item>A-</item>
+        <item>A+ </item>
+        <item>B-</item>
+        <item>B+</item>
+        <item>O-</item>
+        <item>O+</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+
+    <string name="blood_type">Blood Type:</string>
+    <string name="gender">Gender:</string>
+
+    <string-array name="medicine_list">
+        <item>3 months or fewer</item>
+        <item>4_6 months</item>
+        <item>7_9 months</item>
+        <item>9_12 months</item>
+        <item>More than 12 months</item>
+        <item>I don’t remember</item>
+    </string-array>
+    <string-array name="status">
+        <item>Need Blood</item>
+        <item>Do not Need Blood</item>
+
+    </string-array>
+    <string name="next">Next</string>
+
+
+    <string name="full_name">Full Name</string>
+    <string name="no">No</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="string_togglebutton" />
+    <string name="togglebutton2">ToggleButton</string>
+    <string name="togglebutton3">ToggleButton</string>
+    <string name="no4">No</string>
+    <string name="no5">No</string>
+    <string name="no6">No</string>
+    <string name="no7">No</string>
+    <string name="togglebutton4">ToggleButton</string>
+    <string name="please_fill_out_this_form">Please fill out this form:</string>
+    <string name="togglebutton7">ToggleButton</string>
+    <string name="yes1">Yes</string>
+    <string name="yes2">Yes</string>
+    <string name="yes3">Yes</string>
+    <string name="yes4">Yes</string>
+    <string name="yes5">Yes</string>
+    <string name="nearby_bloodbanks1">NEARBY BLOODBANKS</string>
+    <string name="show_bloodbanks">Show BloodBanks</string>
+
+
+    <string name="toast">New Information has been saved.</string>
+    <string name="bloodbank_employee">BloodBank Employee</string>
+    <string name="please_fill_the_information_below_this_questionnaire_is_a_requirement_for_donation_process_so_please_fill_it_with_proper_information">please fill the information below , this questionnaire is a requirement for donation process so please fill it with proper information.</string>
+    <string name="age">Age:</string>
+    <string name="continue_as_a_guest">Continue as a Guest</string>
+    <string name="_1_sign_up_via_your_google_account">1-Sign up via your google account.</string>
+    <string name="_2__fill_out_the_medical_form_which_includes_information_about_you_in_general_and_yes_no_questions">2-Fill out the medical form which includes information about you in general and yes/no questions.</string>
+    <string name="_3_based_on_the_filled_form_you_ll_receive_a_message_from_the_nearset_bloodbank_which_contains_your_scheduled_appointment_info_if_you_re_accepted_as_a_donor_or_a_sorry_message_if_you_re_rejected_as_one">3-Based on the filled form you\'ll receive a message from the nearset bloodbank which contains your scheduled appointment info if you\'re accepted as a donor, or a sorry message if you\'re rejected as one.</string>
+    <string name="all_what_you_need_to_do_is">All what you need to do is:</string>
+    <string name="hope_you_ll_cooperate_with_us_and_be_a_part_of_saving_lives_if_you_wish_to_continue_you_can_view_some_advice_of_donation_then_you_can_sign_up"><![CDATA[Hope you\'ll cooperate with us and be a part of saving lives. If you wish to continue you can view some advice of donation & then you can sign up..]]></string>
+    <string name="this_application_acts_as_an_important_role_in_saving_life_of_human_beings_and_which_is_also_its_main_aim_it_is_developed_so_that_users_can_view_nearby_bloodbanks_and_schedule_appointments_online_with_instant_confirmation_so_your_time_and_effort_will_be_saved">This application acts as an important role in saving life of human beings and which is also its main aim. It is developed so that users can view nearby bloodbanks and schedule appointments online with instant confirmation so your time and effort will be saved.</string>
+    <string name="welcome_to_bloodbank_jo">Welcome to BLOODBANK.JO</string>
+    <string name="_2_fill_out_the_medical_form_which_includes_some_general_information_and_yes_no_questions">2-Fill out the medical form which includes some general information and yes/no questions.</string>
+    <string name="view_advice">View advice</string>
+    <string name="_3_to_avoid_a_skin_rash_clean_the_area_around_the_strip_bandage_with_soap_and_water">3- To avoid a skin rash, clean the area around the strip bandage with soap and water.</string>
+    <string name="_1_keep_the_strip_bandage_on_for_the_next_several_hours">1- Keep the strip bandage on for the next several hours.</string>
+    <string name="_1_maintain_a_healthy_iron_level_in_your_diet_by_eating_iron_rich_foods_such_as_red_meat_fish_poultry_beans_spinach_iron_fortified_cereals_and_raisins">1- Maintain a healthy iron level in your diet by eating iron rich foods, such as red meat, fish, poultry, beans, spinach, iron-fortified cereals and raisins.</string>
+    <string name="_2_get_a_good_night_s_sleep">2- Get a good night\'s sleep.</string>
+    <string name="_2_if_you_experience_dizziness_or_lightheadedness_after_donation_stop_what_you_are_doing_and_sit_down_or_lie_down_until_you_feel_better_avoid_performing_any_activity_where_fainting_may_lead_to_injury_for_at_least_24_hours">2- If you experience dizziness or lightheadedness after donation, stop what you are doing and sit down or lie down until you feel better. Avoid performing any activity where fainting may lead to injury for at least 24 hours.</string>
+    <string name="_3_if_you_are_a_platelet_donor_remember_that_your_system_must_be_free_of_aspirin_for_two_days_prior_to_donation">3- If you are a platelet donor, remember that your system must be free of aspirin for two days prior to donation.</string>
+    <string name="after_your_donation">After Your Donation</string>
+    <string name="before_your_donation">Before Your Donation</string>
+    <string name="sign_up">Sign up</string>
+    <string name="back">Back</string>
+    <string name="did_you_donate_or_receive_any_blood_products_in_the_last_3_months">Did you donate or receive any blood products in the last 3 months?</string>
+    <string name="did_you_take_antibiotics_antivirals_or_antifungals_in_the_last_3_months">Did you take antibiotics, antivirals or antifungals in the last 3 months?</string>
+    <string name="do_you_have_diabetes">Do you have diabetes?</string>
+    <string name="for_women_are_you_pregnant_or_have_you_have_you_been_pregnant_in_the_past_12_months">For women; are you pregnant or have you have you been pregnant in the past 12 months?</string>
+    <string name="string_for_women_are_you_pregnant_or_have_you_have_you_been_pregnant_in_the_past_12_months" />
+    <string name="have_you_had_a_tattoo_or_body_piercing_in_the_last_4_months">Have you had a tattoo or body piercing in the last 4 months?</string>
+    <string name="in_the_last_3_months_have_you_had_a_vaccination">In the last 3 months have you had a vaccination?</string>
+    <string name="note_if_your_answer_is_no_just_turn_off_the_switch_otherwise_keep_it_on">Note: If your answer is no, just turn off the switch .. otherwise keep it on.</string>
+    <string name="for_women_have_you_been_pregnant_in_the_last_12_months">For women: Have you been pregnant in the last 12 months?</string>
+    <string name="note_if_your_answer_is_yes_just_turn_the_switch_on_otherwise_keep_it_off">Note: if your answer is yes just turn the switch on, otherwise keep it off.</string>
+    <string name="enter_your_email">Enter your Email</string>
+    <string name="do_youu_have_diabetes">Do you have diabetes?</string>
+    <string name="please_fill_out_this_form_with_accurate_information">Please fill out this form with accurate information</string>
+    <string name="textvieww">TextVieww</string>
+    <string name="yess">yes</string>
+    <string name="Send">Send</string>
+    <string name="medical_form_data">Medical Form Data</string>
+    <string name="blood_bank_name">Blood bank name</string>
+    <string name="bank_name">Bank Name :</string>
+    <string name="bank_phone">Bank Phone :</string>
+    <string name="bank_status">Bank Status :</string>
+    <string name="namee">Name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="save">SAVE</string>
+    <string name="fill_the_fields_with_the_required_data">Fill the fields with the required data :</string>
+    <string name="name2">Name -</string>
+    <string name="age2">Age -</string>
+    <string name="blood2">Blood -</string>
+    <string name="gender2">Gender -</string>
+    <string name="textviewww">TextView</string>
+    <string name="savee">Save</string>
+    <string name="bloodbank_name">BloodBank Name</string>
+    <string name="phone_numberr">Phone Number :</string>
+    <string name="phone">Phone</string>
+    <string name="status">Status</string>
+    <string name="statuss">Status:</string>
+    <string name="available_banks">Available Banks</string>
+    <string name="agee">Age</string>
+    <string name="blood_typeee">Blood type</string>
+    <string name="genderrrr">Gender</string>
+    <string name="eeee">Name</string>
+    <string name="if_you_are_under_16_please_click">If you are under 16 please click</string>
+    <string name="title_activity_user_req_show">UserReqShow</string>
+    <string name="send_an_apology">Send an apology</string>
+    <string name="set_appointment">Set Appointment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_available_btypes">AvailableBtypes</string>
+    <string name="o">O-</string>
+    <string name="blood_and_donations_needs_and_availability">Blood and Donations needs and availability</string>
+    <string name="modify_blood_bank_s_information">Modify Blood Bank\'s Information</string>
+    <string name="please_choose_what_do_you_want_to_do">Please choose what do you want to do:</string>
+    <string name="sign_outtt">Sign Out</string>
+    <string name="view_donation_requests">View Donation Requests</string>
+    <string name="title_activity_user_main">userMain</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="view_nearby_bloodbanks">view nearby bloodbanks</string>
+    <string name="view_your_scheduled_appointments">view your scheduled appointments</string>
+    <string name="sign_in_as_a_blood_bank">Sign In As A Blood Bank</string>
+    <string name="red_cells">Red Cells</string>
+    <string name="a">A+</string>
+    <string name="_1_you_should_be_16_years_old_on_the_day_of_donation">1-You should be 16 years old on the day of donation.</string>
+    <string name="sorry_you_e_not_allowed_to_donate_since_you_re_under_the_donors_allowed_age_to_be_able_to_donate">Sorry you\'e not allowed to donate since you\'re under the donors allowed age, to be able to donate:</string>
+    <string name="_4_drink_plenty_of_fluids_before_donating">4-Drink plenty of fluids before donating.</string>
+    <string name="_3_eating_well_balanced_meal_before_donation">3-Eating well balanced meal before donation .</string>
+    <string name="_2_should_weight_atleast_55kg_on_the_day_of_donation_for_16_years_old_donors_and_50kg_for_older">2-Should weight atleast 55KG on the day of donation for 16 years old donors , and 50KG for older.</string>
+    <string name="needed_blood_and_donations">Needed Blood and donations</string>
+    <string name="dear_guest">Dear Guest,</string>
+    <string name="this_application_acts_as_an_important_role_in_saving_people_lives_it_is_developed_so_that_users_can_schedule_donation_appointments_online_with_instant_response_in_order_to_save_their_time_and_effort">This application acts as an important role in saving people lives. It is developed so that users can schedule donation appointments online with instant response in order to save their time and effort.</string>
+    <string name="_1_fill_out_the_medical_form_which_incudes_some_questions_that_need_to_be_answered_accurately">1-Fill out the medica
+        l form which incudes some questions that need to be answered accurately.</string>
+    <string name="_2_based_on_the_medical_form_you_ll_either_receive_an_appointment_or_an_apology_message">2-Based on the medical form,you\'ll either receive an appointment or an apology message.</string>
+    <string name="some_title">some title</string>
+    <string name="view_nearby_bloodbanks_map">view nearby bloodbanks (map)</string>
+    <string name="choose_what_do_you_want_to_do">Choose what do you want to do:</string>
+
+    <string name="action_deep_link">
+        com.google.android.gms.samples.appinvite.DEEP_LINK_ACTION
+    </string>
+
+    <string name="invite">Send invitations!</string>
+    <string name="welcome">Invites</string>
+    <string name="referrer_hint">Deep link not provided</string>
+    <string name="deep_link_default">Deep link not set</string>
+    <string name="invitation_id_default">Invitation ID not set</string>
+    <string name="invite_friends">Invite Friends</string>
+
+    <string name="invitation_title">Send Invitations</string>
+    <string name="invitation_message">This app is for scheduling blood donations appointments with any blood bank in Jordan, give it a try!</string>
+    <string name="invitation_deep_link">http://example.com/offer/five_dollar_offer</string>
+    <string name="invitation_custom_image">https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png</string>
+    <string name="invitation_cta">Install!</string>
+
+    <string name="deep_link_fmt" formatted="false">Deep Link: %s</string>
+    <string name="invitation_id_fmt" formatted="false">Invitation ID: %s</string>
+
+    <string name="sent_invitations_fmt" formatted="false">Sent %d invitations</string>
+    <string name="send_failed">Sending invitations failed</string>
+    <string name="invite_dialog_title">You got an invitation!</string>
+
+    <string name="google_play_services_error">Google Play Services Error</string>
+    <string name="apology">Apology:</string>
+    <string name="button">Button</string>
+    <string name="name">Name</string>
+    <string name="enter_apology">enter apology</string>
+    <string name="send_apolgyy">send apolgyy</string>
+    <string name="if_your_answer_is_yes_just_turn_the_switch_on_otherwise_turn_it_off">If your answer is yes, just turn the switch on, otherwise turn it off.</string>
+    <string-array name="Apology">
+        <item>Sorry, your blood type is currently not needed.</item>
+        <item>Sorry, your selected donation type is currently not needed. </item>
+        <item>Sorry, your donation cannot be accepted because of your medical information.</item>
+    </string-array>
+</resources>

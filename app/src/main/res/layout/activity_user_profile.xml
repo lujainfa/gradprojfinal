@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lvDetails"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lujainalfalaileh.bloodbank.UserProfile"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="25dp">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolb"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:theme="@style/MyCustomTheme"></android.support.v7.widget.Toolbar>
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView18"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="91dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/cardView20"
+        app:layout_constraintRight_toRightOf="@+id/cardView20"
+        tools:ignore="RtlHardcoded"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:targetApi="lollipop">
+
+        <TextView
+            android:id="@+id/text66"
+            android:layout_width="40dp"
+            android:layout_height="34dp"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:text="@string/yess"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="204dp"
+            tools:layout_editor_absoluteY="367dp" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView14"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/cardView18"
+        app:layout_constraintLeft_toLeftOf="@+id/cardView19"
+        app:layout_constraintRight_toRightOf="@+id/cardView19"
+        app:layout_constraintTop_toTopOf="@+id/cardView18"
+        tools:ignore="RtlHardcoded"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1">
+
+        <TextView
+            android:id="@+id/t6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/for_women_are_you_pregnant_or_have_you_have_you_been_pregnant_in_the_past_12_months"
+            android:textColor="#000"
+
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView20"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView18"
+        app:layout_constraintLeft_toLeftOf="@+id/cardView16"
+        app:layout_constraintRight_toRightOf="@+id/cardView16"
+        tools:ignore="RtlHardcoded"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:targetApi="lollipop">
+
+        <TextView
+            android:id="@+id/text55"
+            android:layout_width="40dp"
+            android:layout_height="34dp"
+            android:layout_weight="1"
+            android:text="@string/yess"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="204dp"
+            tools:layout_editor_absoluteY="367dp" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView16"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="21dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView20"
+        app:layout_constraintLeft_toLeftOf="@+id/cardView21"
+        app:layout_constraintRight_toRightOf="@+id/cardView21"
+        tools:ignore="RtlHardcoded"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:targetApi="lollipop">
+
+        <TextView
+            android:id="@+id/text44"
+            android:layout_width="40dp"
+            android:layout_height="34dp"
+            android:layout_weight="1"
+            android:text="@string/yess"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="204dp"
+            tools:layout_editor_absoluteY="367dp" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView17"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+
+        android:layout_marginBottom="21dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView19"
+        app:layout_constraintLeft_toLeftOf="@+id/cardView22"
+        app:layout_constraintRight_toRightOf="@+id/cardView22"
+        tools:ignore="RtlHardcoded"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1">
+
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:text="@string/did_you_take_antibiotics_antivirals_or_antifungals_in_the_last_3_months"
+            android:textColor="#000"
+
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="43dp"
+            tools:layout_editor_absoluteY="126dp" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView21"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView16"
+        app:layout_constraintLeft_toLeftOf="@+id/cardView15"
+        app:layout_constraintRight_toRightOf="@+id/cardView15"
+        tools:ignore="RtlHardcoded"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:targetApi="lollipop">
+
+        <TextView
+            android:id="@+id/text33"
+            android:layout_width="40dp"
+            android:layout_height="34dp"
+            android:layout_weight="1"
+            android:text="@string/yess"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="204dp"
+            tools:layout_editor_absoluteY="367dp" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView21"
+        app:layout_constraintLeft_toLeftOf="@+id/cardView12"
+        app:layout_constraintRight_toRightOf="@+id/cardView12"
+        tools:ignore="RtlHardcoded"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:targetApi="lollipop">
+
+        <TextView
+            android:id="@+id/text22"
+            android:layout_width="40dp"
+            android:layout_height="34dp"
+            android:layout_weight="1"
+            android:text="@string/yess"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="204dp"
+            tools:layout_editor_absoluteY="367dp" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView13"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="20dp"
+
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView22"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/cardView15"
+        tools:ignore="RtlHardcoded"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp">
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:text="@string/in_the_last_3_months_have_you_had_a_vaccination"
+            android:textColor="#000"
+
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+
+        android:layout_marginRight="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView15"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="RtlHardcoded"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:targetApi="lollipop"
+        android:layout_marginEnd="10dp">
+
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="40dp"
+            android:layout_height="34dp"
+            android:layout_weight="1"
+            android:text="@string/yess"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="204dp"
+            tools:layout_editor_absoluteY="367dp" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/cardView12"
+        app:layout_constraintLeft_toLeftOf="@+id/cardView13"
+        app:layout_constraintRight_toRightOf="@+id/cardView13"
+        tools:ignore="RtlHardcoded"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_weight="1"
+            android:text="@string/do_you_have_diabetes"
+            android:textColor="#000"
+
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteY="230dp" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView22"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView17"
+        app:layout_constraintLeft_toLeftOf="@+id/cardView13"
+        app:layout_constraintRight_toRightOf="@+id/cardView13"
+        tools:ignore="RtlHardcoded"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1">
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/did_you_donate_or_receive_any_blood_products_in_the_last_3_months"
+            android:textColor="#000"
+            android:textStyle="bold"
+
+            tools:layout_editor_absoluteX="204dp"
+            tools:layout_editor_absoluteY="116dp" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView19"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView14"
+        app:layout_constraintLeft_toLeftOf="@+id/cardView17"
+        app:layout_constraintRight_toRightOf="@+id/cardView17"
+        tools:ignore="RtlHardcoded"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1">
+
+        <TextView
+            android:id="@+id/t5"
+            android:layout_width="318dp"
+            android:layout_height="45dp"
+            android:text="@string/have_you_had_a_tattoo_or_body_piercing_in_the_last_4_months"
+            android:textColor="#000"
+            android:textStyle="bold"
+
+            tools:layout_editor_absoluteX="6dp"
+            tools:layout_editor_absoluteY="176dp" />
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/Available"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="onClick"
+        android:textStyle="bold"
+
+        android:text="Available Blood Banks"
+        android:theme="@style/ThemeOverlay.MyDarkButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="244dp"
+        android:layout_height="111dp"
+        android:layout_marginBottom="28dp"
+        android:layout_marginStart="48dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/cardView12"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout3"
+        app:layout_constraintTop_toBottomOf="@+id/toolb"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1">
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="#000"
+            android:textSize="16sp"
+
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="144dp" />
+
+        <TextView
+            android:id="@+id/tGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="16sp"
+
+            tools:ignore="SmallSp"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="54dp" />
+
+        <TextView
+            android:id="@+id/tBlood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="16sp"
+
+            tools:ignore="SmallSp"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="75dp" />
+
+        <TextView
+            android:id="@+id/Age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="16sp"
+            tools:ignore="SmallSp"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="35dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout7"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolb"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1">
+
+        <TextView
+            android:id="@+id/Name1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textColor="@color/colorAccent"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/Gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gender:"
+            android:textColor="@color/colorAccent"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="15dp" />
+
+        <TextView
+            android:id="@+id/Blood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blood Type:"
+            android:textColor="@color/colorAccent"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="75dp" />
+
+        <TextView
+            android:id="@+id/Age1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Age:"
+            android:textColor="@color/colorAccent"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

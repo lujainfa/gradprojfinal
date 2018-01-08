@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "1011702516539",
+    "firebase_url": "https://bloodbank-3021f.firebaseio.com",
+    "project_id": "bloodbank-3021f",
+    "storage_bucket": "bloodbank-3021f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011702516539:android:37276c5258c7fdb9",
+        "android_client_info": {
+          "package_name": "com.lujainalfalaileh.bloodbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011702516539-oupdru7c67mid0nhmrd5c03t3lcdajbp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lujainalfalaileh.bloodbank",
+            "certificate_hash": "c70248fad15de1e72ae0bc7c108f073f4ee69e81"
+          }
+        },
+        {
+          "client_id": "1011702516539-fv40tlcs6mfmj4ivlvjas4tktfhlt3cb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lujainalfalaileh.bloodbank",
+            "certificate_hash": "2d9b360a8d683a8a1628a6d5e7d9319cd96e6239"
+          }
+        },
+        {
+          "client_id": "1011702516539-350rk7e6c843cs7lgujhcme5j4gdpis4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lujainalfalaileh.bloodbank",
+            "certificate_hash": "ab663c74ea55879cf2702263f148267179786c76"
+          }
+        },
+        {
+          "client_id": "1011702516539-njqkikas1i77t05oll9uphqe8ekmfl6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZFBymlPCB-bLVjaq4_YeI1qToh3EFyq4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011702516539-njqkikas1i77t05oll9uphqe8ekmfl6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

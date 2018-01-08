@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lujainalfalaileh.bloodbank.Appointment">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolb"
+
+        android:layout_width="0dp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/dateAndtime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:theme="@style/MyCustomTheme" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="107dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginStart="77dp"
+        android:hint="Select Date"
+        android:text="No Appointments"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bChoose"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/bChoose"
+        app:layout_constraintTop_toBottomOf="@+id/textClock" />
+
+    <Button
+        android:id="@+id/bChoose"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="52dp"
+    android:theme="@style/ThemeOverlay.MyDarkButton"
+        android:text="Choose a Date"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDate" />
+
+    <TextView
+        android:id="@+id/dateAndtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#000"
+        app:layout_constraintBottom_toTopOf="@+id/textClock"
+        app:layout_constraintEnd_toStartOf="@+id/textClock"
+        app:layout_constraintStart_toStartOf="@+id/textClock"
+        app:layout_constraintTop_toBottomOf="@+id/toolb" />
+
+    <TextClock
+        android:id="@+id/textClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="127dp"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        app:layout_constraintBottom_toTopOf="@+id/tvDate"
+        app:layout_constraintEnd_toEndOf="@+id/tvDate"
+        app:layout_constraintStart_toStartOf="@+id/tvDate"
+        app:layout_constraintTop_toBottomOf="@+id/dateAndtime" />
+
+</android.support.constraint.ConstraintLayout>

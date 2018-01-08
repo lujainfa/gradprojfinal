@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutCompat"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="25dp">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolb"
+        android:layout_width="382dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:theme="@style/MyCustomTheme"></android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="327dp"
+        android:layout_height="19dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="28dp"
+
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="22dp"
+        android:text="@string/_1_you_should_be_16_years_old_on_the_day_of_donation"
+        android:textColor="@android:color/black"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/textView24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22"
+        tools:layout_constraintTop_creator="1" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="302dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="19dp"
+        android:layout_marginEnd="53dp"
+
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/_2_should_weight_atleast_55kg_on_the_day_of_donation_for_16_years_old_donors_and_50kg_for_older"
+        android:textColor="@android:color/black"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/textView25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23"
+        tools:layout_constraintTop_creator="1" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="71dp"
+
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="19dp"
+        android:text="@string/_3_eating_well_balanced_meal_before_donation"
+        android:textColor="@android:color/black"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/textView26"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24"
+        tools:layout_constraintTop_creator="1" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_marginBottom="64dp"
+        android:layout_marginEnd="108dp"
+
+
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/_4_drink_plenty_of_fluids_before_donating"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@+id/Guest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:id="@+id/Guest"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="61dp"
+        android:layout_marginTop="64dp"
+        android:onClick="gclick"
+        android:text="@string/continue_as_a_guest"
+        android:textStyle="bold"
+        android:theme="@style/ThemeOverlay.MyDarkButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView26"
+        tools:ignore="NotSibling"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="323dp"
+        android:layout_height="76dp"
+        android:layout_marginBottom="22dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/sorry_you_e_not_allowed_to_donate_since_you_re_under_the_donors_allowed_age_to_be_able_to_donate"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView23"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolb" />
+</android.support.constraint.ConstraintLayout>
+

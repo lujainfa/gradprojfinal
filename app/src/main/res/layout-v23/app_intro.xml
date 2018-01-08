@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolb"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:theme="@style/MyCustomTheme"></android.support.v7.widget.Toolbar>
+
+    <Button
+        android:id="@+id/bAdvice"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="8dp"
+        android:onClick="aclick"
+        android:textStyle="bold"
+
+        android:text="@string/view_advice"
+        android:theme="@style/ThemeOverlay.MyDarkButton"
+        app:layout_constraintBottom_toTopOf="@+id/gnear"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout8"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:id="@+id/gnear"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="44dp"
+
+        android:layout_marginTop="4dp"
+        android:onClick="aclick"
+        android:textStyle="bold"
+
+        android:text="View nearby blood banks "
+        android:theme="@style/ThemeOverlay.MyDarkButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bAdvice"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="351dp"
+        android:layout_height="320dp"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolb"
+        tools:layout_constraintTop_creator="1">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="97dp"
+            android:lineSpacingExtra="6sp"
+            android:text="@string/this_application_acts_as_an_important_role_in_saving_people_lives_it_is_developed_so_that_users_can_schedule_donation_appointments_online_with_instant_response_in_order_to_save_their_time_and_effort"
+
+            android:textColor="@color/cast_expanded_controller_background_color"
+            android:textStyle="normal"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="78dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:text="@string/all_what_you_need_to_do_is"
+            android:textColor="@color/ColorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="169dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/_1_sign_up_via_your_google_account"
+            android:textColor="@color/cast_expanded_controller_background_color"
+
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="205dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:text="1-Fill out the form which includes some questions that need to be answered accurately."
+            android:textColor="@color/cast_expanded_controller_background_color"
+
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="241dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:text="2-Based on the form you filled, you'l either receive an appointment or an apology."
+            android:textColor="@color/cast_expanded_controller_background_color"
+
+            android:textStyle="normal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="303dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="@string/hope_you_ll_cooperate_with_us_and_be_a_part_of_saving_lives_if_you_wish_to_continue_you_can_view_some_advice_of_donation_then_you_can_sign_up"
+            android:textColor="@color/cast_expanded_controller_background_color"
+
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="365dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

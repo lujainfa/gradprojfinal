@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.lujainalfalaileh.bloodbank">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.androidtutorialpoint.mymapsappsdirection.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Blood Bank"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+
+        tools:ignore="ExtraText">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.lujainalfalaileh.bloodbank.GoogleSignInActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.ALL_APPS" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.lujainalfalaileh.bloodbank.LauncherActivity"></activity>
+        <!-- Firebase start -->
+        <service android:name="com.lujainalfalaileh.bloodbank.FCMMessagingService"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".FCMInstanceIDService"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- Firebase end -->
+        <activity android:name="com.lujainalfalaileh.bloodbank.DeepLinkActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data android:host="example.com" android:scheme="http"/>
+                <data android:host="example.com" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        activity>
+        <activity android:name="com.lujainalfalaileh.bloodbank.BaseActivity" />
+        <activity android:name="com.lujainalfalaileh.bloodbank.Users" />
+        <activity android:name="com.lujainalfalaileh.bloodbank.MedicalForm"
+            android:label="Form"/>
+        <activity android:name="com.lujainalfalaileh.bloodbank.MedicalForm2"
+            android:label="Form"/>
+        <activity android:name="com.lujainalfalaileh.bloodbank.BloodBankSignIn" />
+        <activity android:name="com.lujainalfalaileh.bloodbank.BloodBankProfile"
+            android:label="Modify Information"/>
+
+
+
+
+        <activity android:name="com.lujainalfalaileh.bloodbank.Advice"
+            android:label="Advice"/>
+        <activity android:name="com.lujainalfalaileh.bloodbank.ShowBloodBanks" />
+        <activity android:name="com.lujainalfalaileh.bloodbank.BloodData" />
+
+        <activity android:name="com.lujainalfalaileh.bloodbank.Availability"/>
+        <activity android:name="com.lujainalfalaileh.bloodbank.App_intro"></activity>
+        <activity android:name="com.lujainalfalaileh.bloodbank.UserProfile" />
+        <activity android:name="com.lujainalfalaileh.bloodbank.Banks" />
+        <activity
+            android:name="com.lujainalfalaileh.bloodbank.MapsActivity"
+            android:allowTaskReparenting="true"
+            android:parentActivityName="com.lujainalfalaileh.bloodbank.MapsActivity"
+            tools:targetApi="jelly_bean" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.lujainalfalaileh.bloodbank.GoogleSignInActivity" />
+        .
+        <activity android:name="com.lujainalfalaileh.bloodbank.BloodreqShow" />
+        <activity android:name="com.lujainalfalaileh.bloodbank.UserAdapter" />
+        <activity android:name="com.lujainalfalaileh.bloodbank.RecievedRequests" />
+        <activity android:name="com.lujainalfalaileh.bloodbank.UnderAge" />
+
+        <activity
+            android:name="com.lujainalfalaileh.bloodbank.UserReqShow"
+            android:label="Users Donation Requests"
+            />
+        <activity android:name="com.lujainalfalaileh.bloodbank.ReqResponse" />
+        <activity android:name="com.lujainalfalaileh.bloodbank.Appointment" />
+        <activity
+            android:name="com.lujainalfalaileh.bloodbank.MainActivity"
+            android:label="@string/title_activity_main" />
+        <activity
+            android:name="com.lujainalfalaileh.bloodbank.AvailableBtypes"
+            android:label="Needed Donation Type" />
+        <activity android:name="com.lujainalfalaileh.bloodbank.ViewAvailable"/>
+
+        <activity
+            android:name="com.lujainalfalaileh.bloodbank.userMain"
+            android:label="@string/title_activity_user_main" />
+        <activity android:name="com.lujainalfalaileh.bloodbank.AppointmentShow"></activity>
+        <activity android:name="com.lujainalfalaileh.bloodbank.Apology"></activity>
+
+        <!-- Firebase start -->
+
+
+    </application>
+
+</manifest>
