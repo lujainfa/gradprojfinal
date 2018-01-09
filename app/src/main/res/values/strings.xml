@@ -366,7 +366,7 @@
     <string name="invite_friends">Invite Friends</string>
 
     <string name="invitation_title">Send Invitations</string>
-    <string name="invitation_message">This app is for scheduling blood donations appointments with any blood bank in Jordan, give it a try!</string>
+    <string name="invitation_message"> Give it a try!</string>
     <string name="invitation_deep_link">http://example.com/offer/five_dollar_offer</string>
     <string name="invitation_custom_image">https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png</string>
     <string name="invitation_cta">Install!</string>

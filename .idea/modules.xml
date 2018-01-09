@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RL-master.iml" filepath="$PROJECT_DIR$/RL-master.iml" />
+      <module fileurl="file://C:\Users\Rama\Downloads\FINALBLOODAPP\RL-master\RL-master.iml" filepath="C:\Users\Rama\Downloads\FINALBLOODAPP\RL-master\RL-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Rama\Downloads\FINALBLOODAPP\RL-master\app\app.iml" filepath="C:\Users\Rama\Downloads\FINALBLOODAPP\RL-master\app\app.iml" />
     </modules>
   </component>
 </project>
